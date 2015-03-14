@@ -3,7 +3,7 @@
 //  Explorer
 //
 //  Created by Ian K. on 3/14/15.
-//  Copyright (c) 2015 Noob Studios. All rights reserved. Don't even try to copy this!'
+//  Copyright (c) 2015 Noob Studios. All rights reserved. Dont even try to copy this!
 //
 
 import UIKit
