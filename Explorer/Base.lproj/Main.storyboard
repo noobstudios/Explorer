@@ -121,11 +121,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Тут типо игра" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8KF-SO-woZ">
-                                <rect key="frame" x="267" y="132" width="113" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bk8-gW-eLo">
                                 <rect key="frame" x="42" y="15" width="30" height="30"/>
                                 <state key="normal" title="Exit">
@@ -213,6 +208,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Wrc-g8-Vy8"/>
-        <segue reference="5tS-Qt-21j"/>
+        <segue reference="awe-hY-pHW"/>
     </inferredMetricsTieBreakers>
 </document>
