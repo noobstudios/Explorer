@@ -11,20 +11,34 @@ import SpriteKit
 
 class GameViewController: UIViewController {
     
+    @IBOutlet weak var PopulationNumber: UILabel!
     
-    
+    var currentPopulation = 0
 
     
     
     @IBOutlet var nameField : UITextField!
 
-   //Тут еще не доделано
+   /*Тут еще не доделано
     @IBAction func buttonClick(sender : UIButton) {
         var message = "Text" + nameField.text
         var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler:nil))
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
         self.presentViewController(alert, animated: true, completion:nil)
     }
+    */
+    @IBAction func AddOneGuy(sender: UIButton) {
+        
+        
+        currentPopulation = currentPopulation + 1
+        PopulationNumber.text = "Current population is: \(currentPopulation)"
+    
+    
+    
+    }
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
