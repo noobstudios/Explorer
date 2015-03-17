@@ -224,11 +224,17 @@
                                     <action selector="KillOneGuy:" destination="LVB-YS-i5n" eventType="touchUpInside" id="YeX-XN-gPZ"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text=")" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h93-pQ-WHz">
+                                <rect key="frame" x="236" y="263" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="PopulationNumber" destination="CuS-6r-DKr" id="JuJ-W1-yEi"/>
+                        <outlet property="sff" destination="h93-pQ-WHz" id="V0h-vi-9jY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="btX-cZ-eVz" sceneMemberID="firstResponder"/>

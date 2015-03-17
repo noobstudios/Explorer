@@ -16,17 +16,12 @@ class GameViewController: UIViewController {
     var currentPopulation = 0
 
     
+    @IBOutlet weak var sff: UITextField!
     
-    @IBOutlet var nameField : UITextField!
+   
 
-   /*Тут еще не доделано
-    @IBAction func buttonClick(sender : UIButton) {
-        var message = "Text" + nameField.text
-        var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
-        self.presentViewController(alert, animated: true, completion:nil)
-    }
-    */
+  
+  
 
 //кнопка добавить одного
     @IBAction func AddOneGuy(sender: UIButton) {
@@ -49,18 +44,19 @@ class GameViewController: UIViewController {
     
 }
     
-//запрет отрицательного населения
-//WHY THE FUCK IT IS NOT WORKING? SAYING "DECLARAION EXPECTED"
-    //FUCK U SWIFT!
-    
-/*    if  currentPopulation <= 0 {
-println ("No people left")
+//Скажи плис вот почему оно не работает?!!? тупо не могу найти фикс (то что следующее раскоменть и посмотри: будет выдавать ошибку expected declaration, что поидее изначает что просто где-то пропущена скобка, но я 100 раз все проверил
+    /*
+   if  currentPopulation <= 0 {
+    var message = "Text" + sff.text
+    var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
+    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
+    self.presentViewController(alert, animated: true, completion:nil)
     }
 else {
 
 println ("ok")
 }
-  */
+*/
     override func viewDidLoad() {
         super.viewDidLoad()
         let scene = GameScene(size: view.bounds.size)
