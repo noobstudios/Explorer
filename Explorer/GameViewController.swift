@@ -27,6 +27,8 @@ class GameViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion:nil)
     }
     */
+
+//кнопка добавить одного
     @IBAction func AddOneGuy(sender: UIButton) {
         
         
@@ -37,14 +39,32 @@ class GameViewController: UIViewController {
     
     }
     
+    //кнопка убрать одного
+@IBAction func KillOneGuy(sender: UIButton) {
+
+        currentPopulation = currentPopulation - 1
+
+        PopulationNumber.text = "Current population is: \(currentPopulation)"
     
     
+}
     
+//запрет отрицательного населения
+//WHY THE FUCK IT IS NOT WORKING? SAYING "DECLARAION EXPECTED"
+    //FUCK U SWIFT!
+    
+/*    if  currentPopulation <= 0 {
+println ("No people left")
+    }
+else {
+
+println ("ok")
+}
+  */
     override func viewDidLoad() {
         super.viewDidLoad()
         let scene = GameScene(size: view.bounds.size)
         let skView = view as SKView
-        //Фпс на айфоне в 2д игре)))
         skView.showsFPS = true
         skView.showsNodeCount = true
         skView.ignoresSiblingOrder = true
