@@ -26,6 +26,7 @@ class GameScene: SKScene {
         var bgImage = SKSpriteNode(imageNamed: "background.jpg")
         bgImage.position = CGPointMake(self.size.width/2, self.size.height/2)
         self.addChild(bgImage)
+        
     }
     
     
