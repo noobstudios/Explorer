@@ -28,6 +28,7 @@ class GameViewController: UIViewController
     }
    
     
+@IBOutlet weak var sff: UILabel!
     
     @IBOutlet weak var PopulationNumber: UILabel!
     
@@ -50,11 +51,11 @@ class GameViewController: UIViewController
         PopulationNumber.text = "Current population is: \(currentPopulation)"
     
     
-    
+  sff.text = "what?"
     
    
    if  currentPopulation <= 0 {
-    var message = "Text"
+    var message = "Text" + sff.text!
     var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
     alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
     self.presentViewController(alert, animated: true, completion:nil)

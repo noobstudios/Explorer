@@ -15,8 +15,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "21"
             endingLineNumber = "21"
-            landmarkName = "GameViewController"
-            landmarkType = "3">
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -98,12 +98,26 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Explorer/GameViewController.swift"
-            timestampString = "448256649.364139"
+            timestampString = "448311443.544822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "prefersStatusBarHidden()"
+            startingLineNumber = "74"
+            endingLineNumber = "74">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Explorer/GameViewController.swift"
+            timestampString = "448311443.544822"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "KillOneGuy(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
