@@ -16,13 +16,8 @@ class GameViewController: UIViewController
     
     var currentPopulation = 0
 
-<<<<<<< HEAD
-
-=======
     
     @IBOutlet weak var sff: UITextField!
-    
-   
 
   
   
@@ -37,7 +32,6 @@ class GameViewController: UIViewController
     
     
     }
->>>>>>> origin/master
     
     //кнопка убрать одного
 @IBAction func KillOneGuy(sender: UIButton) {
@@ -49,8 +43,7 @@ class GameViewController: UIViewController
     
 }
     
-//Скажи плис вот почему оно не работает?!!? тупо не могу найти фикс (то что следующее раскоменть и посмотри: будет выдавать ошибку expected declaration, что поидее изначает что просто где-то пропущена скобка, но я 100 раз все проверил
-    /*
+   
    if  currentPopulation <= 0 {
     var message = "Text" + sff.text
     var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
@@ -61,7 +54,6 @@ else {
 
 println ("ok")
 }
-*/
     override func viewDidLoad() {
         super.viewDidLoad()
         let scene = GameScene(size: view.bounds.size)
