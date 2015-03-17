@@ -10,50 +10,8 @@ import UIKit
 import SpriteKit
 
 class GameViewController: UIViewController
+
 {
-    
-    @IBOutlet weak var PopulationNumber: UILabel!
-    
-    var currentPopulation = 0
-
-    
-    @IBOutlet weak var sff: UITextField!
-
-  
-  
-
-//кнопка добавить одного
-    @IBAction func AddOneGuy(sender: UIButton) {
-        
-        
-        currentPopulation = currentPopulation + 1
-        PopulationNumber.text = "Current population is: \(currentPopulation)"
-    
-    
-    
-    }
-    
-    //кнопка убрать одного
-@IBAction func KillOneGuy(sender: UIButton) {
-
-        currentPopulation = currentPopulation - 1
-
-        PopulationNumber.text = "Current population is: \(currentPopulation)"
-    
-    
-}
-    
-   
-   if  currentPopulation <= 0 {
-    var message = "Text" + sff.text
-    var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
-    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
-    self.presentViewController(alert, animated: true, completion:nil)
-    }
-else {
-
-println ("ok")
-}
     override func viewDidLoad() {
         super.viewDidLoad()
         let scene = GameScene(size: view.bounds.size)
@@ -68,4 +26,51 @@ println ("ok")
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
-}
+   
+    
+    
+    
+    
+    
+    @IBOutlet weak var PopulationNumber: UILabel!
+    
+    var currentPopulation = 0
+  
+
+    @IBAction func AddOneGuy(sender: UIButton){
+        
+        
+        currentPopulation = currentPopulation + 1
+        PopulationNumber.text = "Current population is: \(currentPopulation)"
+    
+    
+    
+    
+    
+    //кнопка убрать одного
+@IBAction func KillOneGuy(sender: UIButton) {
+
+        currentPopulation = currentPopulation - 1
+
+        PopulationNumber.text = "Current population is: \(currentPopulation)"
+    
+    
+        }
+    
+   
+   if  currentPopulation <= 0 {
+    var message = "Text" + sff.text
+    var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
+    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
+    self.presentViewController(alert, animated: true, completion:nil)
+   }
+else {
+
+println ("ok")
+        }
+
+
+
+
+
+};
