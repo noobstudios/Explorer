@@ -44,8 +44,7 @@ class GameViewController: UIViewController
         PopulationNumber.text = "Current population is: \(currentPopulation)"
     
     
-    
-    
+    }
     
     //кнопка убрать одного
 @IBAction func KillOneGuy(sender: UIButton) {
@@ -55,7 +54,7 @@ class GameViewController: UIViewController
         PopulationNumber.text = "Current population is: \(currentPopulation)"
     
     
-        }
+    
     
    
    if  currentPopulation <= 0 {
@@ -68,7 +67,7 @@ else {
 
 println ("ok")
         }
-
+    }
 
 
 
