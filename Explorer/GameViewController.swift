@@ -29,13 +29,9 @@ class GameViewController: UIViewController
    
     
     
-    
-    
-    
     @IBOutlet weak var PopulationNumber: UILabel!
     
-    var currentPopulation = 0
-  
+  var currentPopulation = 0
 
     @IBAction func AddOneGuy(sender: UIButton){
         
