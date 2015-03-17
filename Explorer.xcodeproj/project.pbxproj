@@ -11,7 +11,6 @@
 		442F77D41AB4C12A00DE644A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F77D31AB4C12A00DE644A /* GameScene.swift */; };
 		442F77D61AB4C12A00DE644A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F77D51AB4C12A00DE644A /* GameViewController.swift */; };
 		442F77D91AB4C12A00DE644A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442F77D71AB4C12A00DE644A /* Main.storyboard */; };
-		442F77DB1AB4C12A00DE644A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442F77DA1AB4C12A00DE644A /* Images.xcassets */; };
 		442F77DE1AB4C12A00DE644A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442F77DC1AB4C12A00DE644A /* LaunchScreen.xib */; };
 		442F77EA1AB4C12A00DE644A /* ExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442F77E91AB4C12A00DE644A /* ExplorerTests.swift */; };
 		44DA55DE1AB60B310080039E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44DA55DD1AB60B310080039E /* background.jpg */; };
@@ -35,7 +34,6 @@
 		442F77D31AB4C12A00DE644A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		442F77D51AB4C12A00DE644A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		442F77D81AB4C12A00DE644A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		442F77DA1AB4C12A00DE644A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		442F77DD1AB4C12A00DE644A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		442F77E31AB4C12A00DE644A /* ExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		442F77E81AB4C12A00DE644A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,13 +81,12 @@
 		442F77CC1AB4C12A00DE644A /* Explorer */ = {
 			isa = PBXGroup;
 			children = (
-				44DA55E21AB60FA50080039E /* Images */,
 				442F77CF1AB4C12A00DE644A /* AppDelegate.swift */,
 				442F77D31AB4C12A00DE644A /* GameScene.swift */,
 				442F77D51AB4C12A00DE644A /* GameViewController.swift */,
 				442F77D71AB4C12A00DE644A /* Main.storyboard */,
-				442F77DA1AB4C12A00DE644A /* Images.xcassets */,
 				442F77DC1AB4C12A00DE644A /* LaunchScreen.xib */,
+				44DA55E21AB60FA50080039E /* Images */,
 				442F77CD1AB4C12A00DE644A /* Supporting Files */,
 			);
 			path = Explorer;
@@ -212,7 +209,6 @@
 				442F77DE1AB4C12A00DE644A /* LaunchScreen.xib in Resources */,
 				44DA55E01AB60F8B0080039E /* ukflag.png in Resources */,
 				44DA55DE1AB60B310080039E /* background.jpg in Resources */,
-				442F77DB1AB4C12A00DE644A /* Images.xcassets in Resources */,
 				442F77D91AB4C12A00DE644A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

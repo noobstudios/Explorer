@@ -9,22 +9,13 @@
 import UIKit
 import SpriteKit
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController
+{
     
     
     
 
-    
-    
-    @IBOutlet var nameField : UITextField!
 
-   //Тут еще не доделано
-    @IBAction func buttonClick(sender : UIButton) {
-        var message = "Text" + nameField.text
-        var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler:nil))
-        self.presentViewController(alert, animated: true, completion:nil)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
