@@ -51,15 +51,16 @@ class GameViewController: UIViewController
         PopulationNumber.text = "Current population is: \(currentPopulation)"
     
     
-  sff.text = "what?"
+  sff.text = "people"
     
    
-   if  currentPopulation <= 0 {
-    var message = "Text" + sff.text!
+   if  currentPopulation < 1 {
+    var message = "too low" + sff.text!
     var alert = UIAlertController(title: "hello!", message : message, preferredStyle : UIAlertControllerStyle.Alert)
     alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default , handler:nil))
-    self.presentViewController(alert, animated: true, completion:nil)
-   }
+    self.presentViewController(alert, animated: true, completion:nil);
+
+currentPopulation = currentPopulation + 1   }
 else {
 
 println ("ok")
